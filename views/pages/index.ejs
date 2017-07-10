@@ -14,14 +14,16 @@
     <h1> web apps so cool</h1>
     <h2> New Text yay!!!!!</h2>
 	<script>
+
   
-		$.get("test.html", function(data) {
-		
+  
+	$.ajax({
+	
+		url:"test.html"
+	
+	}).done(function(data) {
 		alert(data);
-		
-		
-		});
-  
+	});
   
   </script> 
 
