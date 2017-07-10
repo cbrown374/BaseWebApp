@@ -11,11 +11,16 @@
   <!-- the classes 'page-header' and 'btn btn-default' create bootstrap components.  -->
   <!-- Check out more components here: http://getbootstrap.com/components/ -->
   <div class="page-header">
-    <h1> web apps are so cool</h1>
+    <h1> web apps so cool</h1>
     <h2> New Text yay!!!!!</h2>
 	<script>
   
-		$.get("test.html");
+		$.get("test.html", function(data) {
+		
+		alert(data);
+		
+		
+		});
   
   
   </script> 
